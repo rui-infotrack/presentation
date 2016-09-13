@@ -1,5 +1,7 @@
 const assert = require('assert');
 
+// https://babeljs.io/docs/learn-es2015/
+
 describe('Arrow function', function() {
   it('should both return 15 for 1 + 2 + 3 + ... + 5', function() {
     const actual1 = [1, 2, 3, 4, 5].reduce((x, y) => x + y);
