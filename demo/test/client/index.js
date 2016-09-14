@@ -14,6 +14,16 @@ describe('Arrow function', function() {
   });
 });
 
+// Embrace method chaining
+// [
+//   { name: 'Ken', age: 20, profession: 'programmer' },
+//   { name: 'Mary', age: 25, profession: 'journalist' },
+//   { name: 'Jennifer', age: 30, profession: 'programmer' }
+// ]
+//   .filter(x => x.profession === 'programmer')
+//   .map(x => x.age)
+//   .reduce((x, y) => x + y); // --> 50
+
 describe('Class', function() {
   class Hero {
     constructor(name) {
