@@ -1,0 +1,9 @@
+<div>
+  <HeroMessage hero="spiderman" message="This is my gift, my curse." />
+  <HeroMessage hero="batman" message="It's not who I am underneath, but what I do that defines me." />
+  <HeroMessage hero="ironman" message="Give me a scotch. I'm starving." />
+  <HeroMessage hero="captain" message="The price of freedom is high, it always has been." />
+  <HeroMessage hero="hulk" message="Don't make me angry. You wouldn't like me when I'm angry." />
+</div>
+
+<Button>Click Me</Button>

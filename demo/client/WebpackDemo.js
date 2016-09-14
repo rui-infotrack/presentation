@@ -5,7 +5,7 @@ import * as Math from './math';
 function writeLine(text) {
   const div = document.createElement('div');
   div.innerHTML = `<h1>${text}</h1>`;
-  document.body.appendChild(div);
+  document.getElementById('app-root').appendChild(div);
 }
 
 // ignore the eslint warnings for now.

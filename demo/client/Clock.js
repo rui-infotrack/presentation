@@ -21,7 +21,10 @@ class Clock extends Component {
 
   render() {
     return (
-      <h3>{this.state.displayTime}</h3>
+      <div>
+        <i className="large material-icons">av_timer</i>
+        <h3 style={{ display: 'inline-block', position: 'absolute' }}>{this.state.displayTime}</h3>
+      </div>
     );
   }
 }
