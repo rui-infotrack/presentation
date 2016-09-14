@@ -6,7 +6,7 @@ var helpers = require('./helpers');
 
 module.exports = webpackMerge.smart(commonConfig, {
   entry: {
-    app: helpers.root('client', 'ModuleDemo.js')
+    app: helpers.root('client', 'WebpackDemo.js')
     // app: helpers.root('client', 'ReactDemo.js')
   },
 
